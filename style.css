@@ -25,7 +25,7 @@ div {
     animation-fill-mode: none;
 }
 
-@-webkit-keyframes animation {
+@keyframes animation {
     from {
         opacity: 0.2;
     }
