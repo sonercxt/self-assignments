@@ -1,0 +1,159 @@
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 40vw;
+    height: 70vh;
+    background-color: #EAEAEA;
+    position: relative;
+    top: 14vh;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+main>section {
+    border-radius: 50%;
+}
+
+#ball-1 {
+    width: 15vw;
+    height: 33vh;
+    background-color: #F96868;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    z-index: 3;
+}
+
+#ball-2 {
+    width: 6vw;
+    height: 13vh;
+    background-color: #F8B000;
+    position: relative;
+    left: 13vw;
+    bottom: 28vh;
+    z-index: 2;
+}
+
+#ball-3 {
+    width: 13vw;
+    height: 27vh;
+    background-color: #04B9AB;
+    position: relative;
+    left: 14vw;
+    bottom: 10vh;
+    z-index: 2;
+}
+
+#ball-4 {
+    width: 25vw;
+    height: 55vh;
+    background-color: #B25EC0;
+    position: relative;
+    left: 20vw;
+    bottom: 50vh;
+    z-index: 1;
+}
+
+#profile-container {
+    width: 30vw;
+    height: 44vh;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    bottom: 115vh;
+    left: 5vw;
+    z-index: 5;
+    padding-top: 7vh;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 4.32vh;
+    align-items: center;
+}
+
+#form-content {
+    width: 24vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+#login>button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(129, 129, 129);
+    font-size: x-large;
+}
+
+#login>button:hover {
+    color: #313d5a;
+}
+
+form>input {
+    margin-top: 2vh;
+    border: 0px;
+    border-bottom: 1px solid #ccc9c9;
+    width: 24vw;
+    height: 2.5rem;
+}
+
+#form-content a {
+    margin-top: 5vh;
+    text-decoration: none;
+    margin-left: 5vw;
+    color: rgb(129, 129, 129);
+}
+
+#form-content a:hover {
+
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#register>button {
+    width: 13.65vw;
+    height: 3rem;
+    border: none;
+}
+
+#register {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#register>button:nth-child(1) {
+    text-align: left;
+    padding-left: 1.2vw;
+    color: rgb(129, 129, 129);
+}
+
+#register>button:nth-child(1):hover {
+    background-color: rgb(189, 186, 186);
+    color: rgb(241, 241, 241);
+}
+
+
+#register>button:nth-child(2) {
+    text-align: right;
+    padding-right: 1.2vw;
+    background-color: #313d5a;
+    color: rgb(255, 255, 255);
+}
+
+#register>button:nth-child(2):hover {
+    text-align: right;
+    padding-right: 1.2vw;
+    background-color: #163170;
+    color: rgb(255, 255, 255);
+}
