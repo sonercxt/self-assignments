@@ -1,0 +1,23 @@
+#navbar a{
+    color: rgb(255, 255, 255) !important;
+}
+
+input {
+    background-color: #000000 !important;
+}
+
+#img-github {
+    border-radius: 50%;
+    width: 2vw;
+    height: 4.3vh;
+}
+
+#bell {
+    margin-left: 43vw;
+    margin-right: 1vw;
+}
+
+.navpage {
+    margin-right: 30vw;
+}
+  
