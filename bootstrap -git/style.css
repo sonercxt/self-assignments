@@ -1,4 +1,4 @@
-#navbar a{
+#navbar a {
     color: rgb(255, 255, 255) !important;
 }
 
@@ -20,4 +20,42 @@ input {
 .navpage {
     margin-right: 30vw;
 }
-  
+
+figure>img {
+    border-radius: 50%;
+    width: 18vw;
+    position: relative;
+    bottom: 10vh;
+}
+
+#profile-image {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-image>span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#profile-image>span:nth-child(2) {
+    font-size: 1rem;
+}
+
+#profile-image>button {
+    border-radius: 5px;
+    border: none;
+    margin-top: 2vh;
+}
+
+.project-content {
+    
+}
+
+.icon:nth-child(1) {
+    color:chartreuse;
+}
+
+.radious {
+   border-radius: 20px;
+}
