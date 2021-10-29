@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+main {
+    width: 46vw;
+    height: 70vh;
+    background-color: #E8E9EC;
+    margin: auto;
+    margin-top: 15vh;
+    overflow: hidden;
+}
+
+section {
+    border-radius: 50%;
+}
+
+main>section:nth-child(1) {
+    background-color: #FA6270;
+    width: 15vw;
+    height: 32vh;
+    z-index: 1;
+    position: relative;
+    left: 2.5vw;
+    top: 5vh;
+}
+
+main>section:nth-child(2) {
+    background-color: #FAB100;
+    width: 6vw;
+    height: 13vh;
+    z-index: 0;
+    position: relative;
+    left: 13vw;
+    bottom: 27vh;
+}
+
+main>section:nth-child(3) {
+    background-color: aqua;
+    width: 12vw;
+    height: 26vh;
+    z-index: 1;
+    position: relative;
+    left: 15vw;
+    bottom: 6vh;
+}
+
+main>section:nth-child(4) {
+    background-color: #C869D6;
+    width: 26vw;
+    height: 58vh;
+    z-index: 0;
+    position: relative;
+    left: 23vw;
+    bottom: 45vh;
+}
+
+main>section:nth-child(5) {
+    background-color: rgb(255, 255, 255);
+    width: 36vw;
+    height: 50vh;
+    border-radius: 2px;
+    z-index: 2;
+    position: relative;
+    bottom: 119vh;
+    left: 5vw;
+}
+
+form {
+    position: relative;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.6vw;
+    align-items: center;
+
+}
+
+div:nth-child(1) {
+    color: #919191;
+    font-size: 1.5rem;
+    position: relative;
+    right: 12.4vw;
+}
+
+div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div:nth-child(2)>input {
+    width: 30vw;
+    padding: 1.5vh;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(204, 204, 204);
+}
+
+div:nth-child(3)>a {
+    text-decoration: none;
+    color: #919191;
+}
+
+div:nth-child(3)>a:hover {
+    color: #6e6e6e;
+    cursor: pointer;
+}
+
+div:nth-child(4) {
+    display: flex;
+}
+
+div:nth-child(4)>button {
+    width: 18vw;
+    padding: 2vh 0vh;
+    position: relative;
+    bottom: 1.6vh;
+    border: none;
+}
+
+button:nth-child(odd) {
+    font-weight: bold;
+    color: #919191;
+    padding-left: 1vw;
+}
+
+button:nth-child(odd):hover {
+    color: #5c5a5a;
+}
+
+button:nth-child(even) {
+    background-color: #2D3B55;
+    color: #e0dede;
+    font-weight: bold;
+
+}
+
+button:nth-child(even):hover {
+    color: #f3f3f3;
+}
