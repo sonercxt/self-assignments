@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 85vh;
+    width: 20vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #afafaf;
+}
+
+
+section {
+  
+    height: 75vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#login-tittle {
+    font-weight: 900;
+    font-size: 2rem;
+
+}
+
+#form-input {
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: flex-end;
+}
+
+#form-input a, #form-input label {
+    font-size: 0.8rem;
+}
+
+
+
+button,
+input {
+    border-radius: 7px;
+    height: 5vh;
+    width: 16vw;
+    border: 1px solid #333232;
+}
+
+input, span {
+    opacity: 0.4;
+    font-family: FontAwesome;
+}
+
+#login-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    height: 15vh;
+  
+    align-items: center;
+}
+
+#login-buttons>button:first-child {
+ padding: 1.6vh 0vh;
+ border:0px;
+ background-color: #333232;
+ color: rgb(255, 255, 255);
+}
+
+#login-buttons>div button {
+    width:2.4vw;
+    height: 5vh;
+    border-radius:50%;
+    background-color: #333232;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#sign-up {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8vh;
+    align-items: center;
+    font-size: 0.8rem;
+    row-gap: 1vh;
+
+}
+
+a, span{
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+#sign-up a {
+    opacity: 1;
+}
+
+button:hover {
+    
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
